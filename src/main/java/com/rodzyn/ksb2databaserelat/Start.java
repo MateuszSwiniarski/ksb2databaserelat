@@ -51,7 +51,7 @@ public class Start {
 
         roomFirst.setCleaner(cleanerKryśka);
         roomSecond.setCleaner(cleanerGoska);
-        
+
         cleanerRepo.save(cleanerGoska);
         cleanerRepo.save(cleanerKryśka);
 
